@@ -7,7 +7,7 @@ function App() {
   const [showToast, setShowToast] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const url = 'https://script.google.com/macros/s/AKfycbzOf-I9bPX7swz_TogvTkZtg9YxcEH2-SoHPY9Z-cOVvs9HdaYS6Mg_Mu_MxG5_Syc/exec'
+  const url = 'https://script.google.com/macros/s/AKfycbz9-16G74hXLgvfSRMtvmr9IQZXFHribfb4XSk9IWGrLxWg9TndXDCXcnZNtFj6uFU/exec'
 
   const handleCommentChange = (e) => {
     setComment(e.target.value);
